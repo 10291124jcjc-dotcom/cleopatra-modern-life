@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+work/
+final/
+clips/
+music/
+refs/
+*.mp3
+*.m4a
+*.wav
+!assets/*

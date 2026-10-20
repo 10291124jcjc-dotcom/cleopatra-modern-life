@@ -1,0 +1,44 @@
+{
+ "title": "【主角】的现代日常",
+ "title_en": "【Hero】's Modern Life",
+ "slug": "my-episode",
+ "aspect": "4:3",
+ "protagonist": {
+  "name": "【主角，例如：维京首领】",
+  "name_en": "【the Viking chief】",
+  "pronoun": "他",
+  "match": "脸、头发、胡子、头盔和衣服",
+  "image": "refs/protagonist.png",
+  "ref_prompt": "Character reference sheet of one 【who】, front view and three-quarter view side by side on a plain warm beige background. 【age, skin, face, hair, headwear, clothes, jewelry】. An original face, not resembling any actor or real person. Realistic photo, soft natural light, no text."
+ },
+ "shots": [
+  {
+   "id": "01",
+   "name": "【梗的两个字名字】",
+   "name_en": "【short name】",
+   "gag": "【古代场景 + 现代物件：谁在哪里用什么】",
+   "contrast": "【古法对照物：画面里谁在用古代的方式做同一件事】",
+   "result": "【看得见的结果】",
+   "camera": "【主要运镜，一句话】",
+   "duration": 6,
+   "file": "clips/01_【名字】.mp4",
+   "beats": [
+    {"t": "0–2", "text": "【机位 1 交代：机位在哪，镜头怎么动，谁做什么，结果】"},
+    {"t": "2–4.5", "text": "【机位 2 高潮：现代物件真正用起来】"},
+    {"t": "4.5–6", "text": "【机位 3 结果：对照物的反应，或人走出画面】"}
+   ]
+  }
+ ],
+ "order": ["01"],
+ "music": {
+  "file": "music/song.mp3",
+  "title": "",
+  "bpm": null,
+  "in": null,
+  "drop_at": null
+ },
+ "edit": {
+  "head_trim": 0.3,
+  "snap": "beat"
+ }
+}
