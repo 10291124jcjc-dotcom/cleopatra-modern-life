@@ -18,9 +18,9 @@
 
 ### 每个机位必须写清 5 件事
 
-1. **时间段**，精确到 0.5 秒（`0–2 秒`）
+1. **时间段**，精确到 0.5 秒（`0–2 秒`）；各机位首尾相接，最后一个的结束秒数等于时长
 2. **机位在哪**：超低 / 贴水 / 贴地 / 过肩 / 帐篷里 / 无人机
-3. **镜头怎么动**：推 / 摇 / 平行跟 / 往后退 / 拔高 / 固定
+3. **镜头怎么动**：推 / 摇 / 平行跟 / 往后退 / 拔高 / 基本固定（不要只写「固定」，见下面的规则）
 4. **谁做什么**：写全身动作，写完整
 5. **结果**
 
@@ -50,6 +50,7 @@
 - **第一句永远是参考图说明**，保证每个镜头是同一个人。主角换了装（比如穿上翼装），就在第一句里写明「外面穿了……」
 - **秒数加起来等于即梦里选的时长**
 - **表演那句、质感那句每条都带，一字不改**
+- 质感句里有「镜头手持」，指的是整体手持拍摄的质感；所以机位里**不写「固定机位」，写「基本固定，轻微手持晃动」**，两句就不冲突
 - **质感只写「年代 + 拍摄方式 + 机器的缺陷」**，不要写 film grain、grainy、复古滤镜这类词（模型会给你一张干净高清图再套一层假滤镜）
 - **每条都写「无文字、无品牌标志」**，防止出现乱码字和真实商标
 - 主角**不在**首帧出场的镜头（比如 08 地毯），也照样传参考图，提示词里写她什么时候出现
@@ -91,9 +92,9 @@ Ordered **setup → payoff → result**:
 
 ### Each angle states five things
 
-1. **Time span**, to 0.5 s (`0–2 秒`)
+1. **Time span**, to 0.5 s (`0–2 秒`); spans run end to end and the last one ends at the clip duration
 2. **Camera position**: very low / water level / ground level / over the shoulder / inside the tent / drone
-3. **Camera move**: push / tilt or pan / track alongside / pull back / rise / locked off
+3. **Camera move**: push / tilt or pan / track alongside / pull back / rise / "mostly still" (not "locked off", see the rules)
 4. **Who does what**, as a complete full-body action
 5. **The result**
 
@@ -110,6 +111,7 @@ See the Chinese block above; `scripts/make_prompts.py` builds it from `episode.j
 - **The first line is always the reference line**, so every clip shows the same person. If the lead changes clothes (the wingsuit), say so in that line
 - **Time spans add up to the duration you pick in Jimeng**
 - **The acting line and the look line go in every prompt, word for word**
+- The look line says "handheld", meaning the overall handheld feel; so never write "locked-off camera" in an angle — write "mostly still, slight handheld shake" (基本固定，轻微手持晃动) so the two don't contradict
 - **Describe the look as era + capture medium + the machine's flaws**, never "film grain", "grainy" or "vintage filter" (you get a clean HD image with a fake filter on top)
 - **Always add "no text, no logos"** to avoid garbled lettering and real trademarks
 - If the lead is **not** in the opening of a clip (08 carpet), still attach the reference and say when she appears

@@ -16,7 +16,7 @@
 | 时长 | **和提示词里写的秒数一致**：写到 6 秒选 6 秒，写到 8 秒选 8 秒 |
 | 清晰度 | 先 480p 试；满意了用「超清」放大**同一条**，不要重新生成 |
 | 声音 | 保留，Seedance 自带的现场声后面会垫在音乐下面 |
-| 提示词 | 打开 `prompts/NN_*.txt`，复制空行以下的整段 |
+| 提示词 | 打开 `prompts/NN_*.txt`，复制「以下整段复制到即梦」那条分隔线**以下的全部内容** |
 
 ### 时长一定要选对
 
@@ -55,7 +55,7 @@ We used Seedance 2.5 video generation on the Jimeng website.
 | Duration | **match the prompt**: if it is written up to 6 s pick 6 s, up to 8 s pick 8 s |
 | Quality | test at 480p; when happy, upscale **the same take**, don't regenerate |
 | Sound | keep it; Seedance's own ambience goes under the song later |
-| Prompt | open `prompts/NN_*.txt` and copy everything below the blank line |
+| Prompt | open `prompts/NN_*.txt` and copy **everything below the divider line** ("以下整段复制到即梦 / copy everything below into Jimeng") |
 
 ### Get the duration right
 

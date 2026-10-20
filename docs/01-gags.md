@@ -19,7 +19,7 @@
 
 ### 6 条规则
 
-1. **每个梗都不一样**：同一类东西不出现两次（交通、餐饮、办公、科技、极限运动、物流各占一个）
+1. **每个梗用不同的现代物件，场景和类型尽量分散**：交通、餐饮、办公、通信、科技、极限运动、养生、物流、安防……同一类最好不超过两个。同一类出现多次时，场景和古法对照物必须完全不同（埃及女王里扶梯、水上摩托、卡丁车都和交通有关，但分别在金字塔、尼罗河、沙漠，对照物是工人、渔船、战车）
 2. **反差要大**：现代物件越「不该出现在那里」越好
 3. **主角永远一本正经**：好笑的是别人的反应或结果，不是主角的表情
 4. **不用参考视频里已经有的梗**：学形式，梗自己想
@@ -70,7 +70,7 @@ The old-way contrast is what makes it land at a glance: the queen on an escalato
 
 ### Six rules
 
-1. **No two gags alike** — one each from transport, food, office, tech, extreme sports, logistics
+1. **A different modern object every time, spread across categories** — transport, food, office, comms, tech, extreme sports, wellness, logistics, security…; ideally no more than two from one category, and when a category repeats, the setting and the old-way contrast must be completely different (escalator / jet ski / go-kart are all transport, but at the pyramid / on the Nile / in the desert, against workers / a reed boat / a chariot)
 2. **Maximum contrast** — the more the object "shouldn't be there", the better
 3. **The lead stays deadpan** — the laugh comes from the result or other people
 4. **Don't reuse the reference's gags** — copy the format, invent the jokes
