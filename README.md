@@ -4,7 +4,11 @@
 
 ![Cleopatra's modern life](assets/preview.gif)
 
-**完整成片 / full video:** [`assets/demo.mp4`](assets/demo.mp4)（只有现场声，没有配乐 / clip sound only, no music）
+https://github.com/user-attachments/assets/04d1e427-8636-4ab6-8a0d-c7a1c9b0e6d4
+
+配乐：《4 Raws》- EsDeeKid，版权归原作者，仅作演示；仓库里不提供这首歌。只有现场声的版本：[`assets/demo.mp4`](assets/demo.mp4)
+
+Music: "4 Raws" by EsDeeKid, all rights to the original owners, used for demonstration only and not included in this repo. Clip-sound-only version: [`assets/demo.mp4`](assets/demo.mp4)
 
 ---
 
