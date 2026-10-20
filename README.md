@@ -2,8 +2,6 @@
 
 [中文](#中文) · [English](#english)
 
-![Cleopatra's modern life](assets/preview.gif)
-
 https://github.com/user-attachments/assets/04d1e427-8636-4ab6-8a0d-c7a1c9b0e6d4
 
 配乐：《4 Raws》- EsDeeKid，版权归原作者，仅作演示；仓库里不提供这首歌。只有现场声的版本：[`assets/demo.mp4`](assets/demo.mp4)
@@ -85,7 +83,7 @@ docs/                   00 拆参考视频 · 01 写梗 · 02 人物参考图 ·
 scripts/                setup_check · make_prompts · review_clips · analyze_music · beat_edit
 templates/episode.json  空白模板
 examples/cleopatra/     埃及女王：设定、8 条提示词、剪辑表
-assets/                 预览动图、演示视频、镜头截图
+assets/                 演示视频、镜头截图
 ```
 
 ### 注意
