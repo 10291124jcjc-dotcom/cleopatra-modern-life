@@ -38,7 +38,7 @@ def auto_pieces(dur, cuts, head_trim):
         a, b = edges[i], edges[i + 1]
         if i > 0:
             a += 0.02                       # skip the switch frame
-        if i == 0:
+        if i == 0 and (b - a) - head_trim >= 1.2:   # short first angles keep their head
             a += head_trim
         if b - a > 0.2:
             ps.append([round(a, 3), round(b, 3)])
